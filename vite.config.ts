@@ -18,8 +18,17 @@ if (
   delete process.env.HOST;
 }
 
-const host = new URL(process.env.SHOPIFY_APP_URL || "http://localhost")
-  .hostname;
+let host = "localhost";
+try {
+  const urlToParse = process.env.SHOPIFY_APP_URL || "http://localhost";
+  host = new URL(
+    urlToParse.startsWith("http://") || urlToParse.startsWith("https://")
+      ? urlToParse
+      : `https://${urlToParse}`
+  ).hostname;
+} catch {
+  host = "localhost";
+}
 
 let hmrConfig;
 if (host === "localhost") {
