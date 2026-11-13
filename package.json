@@ -1,5 +1,5 @@
 {
-  "name": "promopopup",
+  "name": "whatsapp-chat",
   "private": true,
   "scripts": {
     "build": "prisma generate && remix vite:build",

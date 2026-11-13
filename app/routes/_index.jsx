@@ -102,7 +102,7 @@ export default function Index() {
             </svg>
           </div>
           <h1 style={{ margin: '0 0 8px 0', fontSize: '28px', fontWeight: '700', background: 'linear-gradient(to right, #fff, #94a3b8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            Install PromoPopup
+            Install WhatsApp Chat
           </h1>
           <p style={{ margin: 0, color: '#94a3b8', fontSize: '15px' }}>
             Enter your Shopify store domain to install the app.
