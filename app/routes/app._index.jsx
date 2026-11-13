@@ -99,7 +99,7 @@ export default function Dashboard() {
 
       <div className="hero-banner">
         <BlockStack gap="400">
-          <div className="hero-title">Welcome to WhatsApp Chat Button! 🚀</div>
+          <div className="hero-title">Welcome to Messenger Linker! 🚀</div>
           <div className="hero-subtitle">
             Boost your sales and engage with your customers directly on WhatsApp. 
             Connect instantly and never miss a lead.

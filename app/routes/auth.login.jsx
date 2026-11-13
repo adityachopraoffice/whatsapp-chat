@@ -3,8 +3,8 @@ import { Form, useActionData, useLoaderData } from "@remix-run/react";
 import { login } from "../shopify.server";
 
 export const meta = () => [
-  { title: "Log in - WhatsApp Chat" },
-  { name: "description", content: "Log in to WhatsApp Chat for Shopify" },
+  { title: "Log in - Messenger Linker" },
+  { name: "description", content: "Log in to Messenger Linker for Shopify" },
 ];
 
 export const loader = async ({ request }) => {
@@ -110,7 +110,7 @@ export default function Auth() {
             </svg>
           </div>
           <h1 style={{ margin: '0 0 8px 0', fontSize: '28px', fontWeight: '700', background: 'linear-gradient(to right, #fff, #a7f3d0)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            WhatsApp Chat
+            Messenger Linker
           </h1>
           <p style={{ margin: 0, color: '#94a3b8', fontSize: '15px' }}>
             Enter your Shopify store domain to log in.

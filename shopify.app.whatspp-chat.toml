@@ -1,6 +1,6 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-name = "whatspp Chat"
+name = "Messenger Linker"
 client_id = "ba14e71219a0d25b11e496db975520f4"
 application_url = "https://whatsapp-chat-six-psi.vercel.app"
 embedded = true

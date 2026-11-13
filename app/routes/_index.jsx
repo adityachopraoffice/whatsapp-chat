@@ -2,8 +2,8 @@ import { redirect } from "@remix-run/node";
 import { Form } from "@remix-run/react";
 
 export const meta = () => [
-  { title: "WhatsApp Chat - Install App" },
-  { name: "description", content: "Install WhatsApp Chat for Shopify" },
+  { title: "Messenger Linker - Install App" },
+  { name: "description", content: "Install Messenger Linker for Shopify" },
 ];
 
 export const loader = async ({ request }) => {
@@ -105,7 +105,7 @@ export default function Index() {
             </svg>
           </div>
           <h1 style={{ margin: '0 0 8px 0', fontSize: '28px', fontWeight: '700', background: 'linear-gradient(to right, #fff, #a7f3d0)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            Install WhatsApp Chat
+            Messenger Linker
           </h1>
           <p style={{ margin: 0, color: '#94a3b8', fontSize: '15px' }}>
             Enter your Shopify store domain to install the app.

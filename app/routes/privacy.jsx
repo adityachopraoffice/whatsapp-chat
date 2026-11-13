@@ -1,5 +1,9 @@
 import React from 'react';
 
+export const meta = () => [
+  { title: "Privacy Policy - Messenger Linker" },
+];
+
 export default function PrivacyPolicy() {
   return (
     <div style={{
@@ -11,12 +15,12 @@ export default function PrivacyPolicy() {
       padding: '40px 20px'
     }}>
       <h1 style={{ fontSize: '32px', borderBottom: '2px solid #eaeaea', paddingBottom: '10px' }}>
-        Privacy Policy for WhatsApp Chat
+        Privacy Policy for Messenger Linker
       </h1>
       <p><strong>Last Updated: November 13, 2026</strong></p>
       
       <p>
-        WhatsApp Chat ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and shared when you install or use the WhatsApp Chat application in connection with your Shopify-supported store.
+        Messenger Linker ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and shared when you install or use the Messenger Linker application in connection with your Shopify-supported store.
       </p>
       
       <h2 style={{ fontSize: '24px', marginTop: '30px' }}>1. Information We Collect</h2>
@@ -30,13 +34,13 @@ export default function PrivacyPolicy() {
         </li>
       </ul>
       <p>
-        <strong>Note on Customer Data:</strong> WhatsApp Chat <strong>DOES NOT</strong> collect, store, or track any Personal Identifiable Information (PII) from your store's visitors or shoppers. When a customer clicks the WhatsApp button, they are redirected directly to WhatsApp (via wa.me) to converse with your store. No customer conversations or customer details are stored on our servers.
+        <strong>Note on Customer Data:</strong> Messenger Linker <strong>DOES NOT</strong> collect, store, or track any Personal Identifiable Information (PII) from your store's visitors or shoppers. When a customer clicks the chat button, they are redirected directly to WhatsApp (via wa.me) to converse with your store. No customer conversations or customer details are stored on our servers.
       </p>
       
       <h2 style={{ fontSize: '24px', marginTop: '30px' }}>2. How We Use Your Information</h2>
       <p>We use the collected information solely to:</p>
       <ul>
-        <li>Provide, operate, and maintain the WhatsApp Chat widget on your store.</li>
+        <li>Provide, operate, and maintain the Messenger Linker chat widget on your store.</li>
         <li>Process subscriptions and billing through Shopify's secure Billing API.</li>
         <li>Provide customer support and respond to merchant inquiries.</li>
         <li>Comply with Shopify App Store requirements and applicable data protection regulations.</li>

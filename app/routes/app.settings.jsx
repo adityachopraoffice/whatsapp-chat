@@ -148,7 +148,7 @@ export default function Settings() {
 
   return (
     <Page
-      title="WhatsApp Chat Button Settings"
+      title="Messenger Linker Settings"
       primaryAction={{
         content: "Save",
         onAction: handleSave,

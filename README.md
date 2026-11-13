@@ -1,4 +1,4 @@
-# WhatsApp Chat - Shopify App
+# Messenger Linker - Shopify App
 
 A Shopify app built with Remix and Prisma featuring a WhatsApp chat button theme app extension.
 
