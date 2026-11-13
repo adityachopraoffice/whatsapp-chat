@@ -1,0 +1,10 @@
+<div id="whatsapp-wrapper" data-shop="{{ shop.permanent_domain }}"></div>
+<script src="{{ 'whatsapp-button.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "WhatsApp Chat Button",
+  "target": "body",
+  "javascript": "whatsapp-button.js"
+}
+{% endschema %}
