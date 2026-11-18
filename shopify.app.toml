@@ -1,6 +1,6 @@
 name = "Messenger Linker"
 client_id = "ba14e71219a0d25b11e496db975520f4"
-application_url = "https://whatsapp-chat-six-psi.vercel.app"
+application_url = "https://whatsapp-chat-pi.vercel.app"
 embedded = true
 
 [access_scopes]
@@ -8,9 +8,9 @@ scopes = "read_products,write_app_proxy"
 
 [auth]
 redirect_urls = [
-  "https://whatsapp-chat-six-psi.vercel.app/auth/callback",
-  "https://whatsapp-chat-six-psi.vercel.app/auth/shopify/callback",
-  "https://whatsapp-chat-six-psi.vercel.app/api/auth/callback"
+  "https://whatsapp-chat-pi.vercel.app/auth/callback",
+  "https://whatsapp-chat-pi.vercel.app/auth/shopify/callback",
+  "https://whatsapp-chat-pi.vercel.app/api/auth/callback"
 ]
 
 [webhooks]
@@ -32,6 +32,6 @@ uri = "/webhooks"
 handle = "whatsapp-extension"
 
 [app_proxy]
-url = "https://whatsapp-chat-six-psi.vercel.app"
+url = "https://whatsapp-chat-pi.vercel.app"
 subpath = "whatsapp-chat"
 prefix = "apps"
